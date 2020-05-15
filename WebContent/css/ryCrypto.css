@@ -1,0 +1,172 @@
+@charset "ISO-8859-1";
+
+body 
+{
+	font-family: 'Bangers', cursive;
+	margin: 0;
+}
+
+input[type=text] 
+{
+	padding: 6px;
+	font-size: 1rem;
+	text-align: center;
+}
+
+input[type=password] 
+{
+	padding: 6px;
+	font-size: 1rem;
+	text-align: center;
+}
+
+.header 
+{
+	overflow: hidden;
+	background-color: gray;
+	padding: 20px 10px;
+}
+
+.header a 
+{
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	padding: 12px;
+	font-size: 1.25rem;
+	border-radius: 4px;
+}
+
+.header a.logo 
+{
+	float: left;
+	font-size: 2rem;
+	font-weight: bold;
+	font-family: 'Orbitron', sans-serif;
+	
+}
+
+.header a:hover 
+{
+	background-color: DarkGray;
+	color: white;
+}
+
+.header a.active 
+{
+	background-color: black;
+	color: white;
+}
+
+.header-right 
+{
+	float: right;
+	margin: 12px;
+}
+
+.button 
+{
+	background-color: gray;
+	color: white;
+	text-align: center;
+	font-family: 'Bangers', cursive;
+	font-size: 1rem;
+	padding: 15px 32px;
+	text-decoration: none;
+	border: none;
+}
+
+.main 
+{
+	text-align: center;
+}
+
+
+@media (max-width: 375px) 
+{
+	.header a 
+	{
+		font-size: 0.625rem; 
+		
+	}
+	
+	.header a.logo 
+	{
+		font-size: 1rem;
+	}
+	
+	.main 
+	{
+		text-align: center;
+	}
+	
+	h1 
+	{
+		font-size: 1.5rem;
+	}
+	
+	h3 
+	{
+		font-size: 1rem;
+	}
+	
+	.button 
+	{
+		font-size: .75rem;
+	}
+	
+	input[type=text] 
+	{
+		font-size: .75rem;
+	}
+	
+	input[type=password] 
+	{
+		font-size: .75rem;
+	}
+}
+
+@media (max-width: 420px)
+{
+	
+	.header a 
+	{
+		font-size: 0.75rem; 
+		
+	}
+	
+	.header a.logo 
+	{
+		font-size: 1.125rem;
+	}
+	
+	.main 
+	{
+		text-align: center;
+	}
+	
+	h1 
+	{
+		font-size: 1.625rem;
+	}
+	
+	h3 
+	{
+		font-size: 1.125rem;
+	}
+	
+	.button 
+	{
+		font-size: .875rem;
+	}
+	
+	input[type=text] 
+	{
+		font-size: .875rem;
+	}
+	
+	input[type=password] 
+	{
+		font-size: .875rem;
+	}
+}
